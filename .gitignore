@@ -1,0 +1,45 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Video outputs and local media
+outputs/*.mp4
+outputs/*.avi
+videos/*.mp4
+videos/*.avi
+videos/*.mov
+videos/*.mkv
+!videos/.gitkeep
+!outputs/.gitkeep
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node & Next.js frontend
+ui/node_modules/
+ui/.next/
+ui/out/
+ui/.env*.local
+ui/npm-debug.log*
+ui/yarn-debug.log*
+ui/yarn-error.log*
+ui/.pnpm-debug.log*
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

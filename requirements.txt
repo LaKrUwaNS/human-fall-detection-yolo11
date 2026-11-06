@@ -1,0 +1,15 @@
+# Human Fall Detection Dependencies
+
+# Core Deep Learning & Computer Vision
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Video Streaming & Universal Browser Codec (H.264)
+imageio>=2.36.0
+imageio-ffmpeg>=0.5.1
+
+# Web API Backend for Next.js UI
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.10
